@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A4A6B35029E5A55D00450417 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A4A6B34F29E5A55D00450417 /* main.c */; };
+		A4A6B35829E5AA6200450417 /* reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = A4A6B35729E5AA6200450417 /* reverse.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A4A6B34C29E5A55D00450417 /* exam 16 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "exam 16"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A6B34C29E5A55D00450417 /* exam 18 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "exam 18"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A6B34F29E5A55D00450417 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A4A6B35629E5AA6200450417 /* reverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reverse.h; sourceTree = "<group>"; };
+		A4A6B35729E5AA6200450417 /* reverse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = reverse.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +52,7 @@
 		A4A6B34D29E5A55D00450417 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A4A6B34C29E5A55D00450417 /* exam 16 */,
+				A4A6B34C29E5A55D00450417 /* exam 18 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,6 +60,8 @@
 		A4A6B34E29E5A55D00450417 /* exam 16 */ = {
 			isa = PBXGroup;
 			children = (
+				A4A6B35629E5AA6200450417 /* reverse.h */,
+				A4A6B35729E5AA6200450417 /* reverse.c */,
 				A4A6B34F29E5A55D00450417 /* main.c */,
 			);
 			path = "exam 16";
@@ -65,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A4A6B34B29E5A55D00450417 /* exam 16 */ = {
+		A4A6B34B29E5A55D00450417 /* exam 18 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4A6B35329E5A55D00450417 /* Build configuration list for PBXNativeTarget "exam 16" */;
+			buildConfigurationList = A4A6B35329E5A55D00450417 /* Build configuration list for PBXNativeTarget "exam 18" */;
 			buildPhases = (
 				A4A6B34829E5A55D00450417 /* Sources */,
 				A4A6B34929E5A55D00450417 /* Frameworks */,
@@ -77,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "exam 16";
+			name = "exam 18";
 			productName = "exam 16";
-			productReference = A4A6B34C29E5A55D00450417 /* exam 16 */;
+			productReference = A4A6B34C29E5A55D00450417 /* exam 18 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A4A6B34729E5A55D00450417 /* Build configuration list for PBXProject "exam 16" */;
+			buildConfigurationList = A4A6B34729E5A55D00450417 /* Build configuration list for PBXProject "exam 18" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A4A6B34B29E5A55D00450417 /* exam 16 */,
+				A4A6B34B29E5A55D00450417 /* exam 18 */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A6B35829E5AA6200450417 /* reverse.c in Sources */,
 				A4A6B35029E5A55D00450417 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,7 +260,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A4A6B34729E5A55D00450417 /* Build configuration list for PBXProject "exam 16" */ = {
+		A4A6B34729E5A55D00450417 /* Build configuration list for PBXProject "exam 18" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4A6B35129E5A55D00450417 /* Debug */,
@@ -263,7 +269,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4A6B35329E5A55D00450417 /* Build configuration list for PBXNativeTarget "exam 16" */ = {
+		A4A6B35329E5A55D00450417 /* Build configuration list for PBXNativeTarget "exam 18" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4A6B35429E5A55D00450417 /* Debug */,
